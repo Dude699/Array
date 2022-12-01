@@ -14,7 +14,7 @@ public class MainApp {
 	        	tong = tong + a[i];
         	}
 	        System.out.println("Tong cua cac mang la :" + tong);
-        if(tong / 2 == 0) {
+        if(tong % 2 == 0) {
         	System.out.println("tong la so chan");
 	}else {
     	System.out.println("tong la so le");
